@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>表单</title>
+	</head>
+	<body>
+		<!-- 同一组单选框的name属性值必须一致； -->
+		<!-- <form action="" methon="">表示一个表单，里面给一个action数据交给谁处理；2，method的，另外也可以给name等属性值 -->
+	<form action="https://www.baidu.com" method="" name="text" enctype="">
+		<input type="text"/><br/>
+		<input type="pasword"/><br/>
+		<input type="radio"name="sex"/>男
+		<input type="radio" name="sex"/>女<br />
+		<input type="file"/><!--提交文件-->
+		<input type="button" value="接收"
+		<input type="image"/>
+		
+		<input type="submit" /><!-- 提交 -->
+		<!-- 一点“提交”就会提交给上面的action的值，
+		如上面的action后面加上百度后会点提交就会提交给百度来处理 -->
+		<input type="reset"><!-- 重置 -->
+		<!--点“重置”之前的一些选择就会清空，如上面的文本行里面的值-->
+		<input type="hidden" name="abc" value="123"
+		<textarea></textare>
+		<select>
+			<option>1</option>
+			 <option>2</option>
+			 <option>3</option>
+			 <option>4</option>
+			  <option>5</option>
+		</select>
+	</form>
+	</body>
+</html>

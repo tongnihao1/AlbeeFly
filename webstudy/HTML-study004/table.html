@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>表格</title>
+	</head>
+	<body>
+<table border ="1">
+	
+	
+	<!-- #第一行内容 -->
+	<tr height="300px"><!-- 行上的所有单元格的行高为300px -->
+		<td width="100px" height="50px">姓名</td><!-- 行上单元格的所有行宽为100px -->
+		<td>老木</td><!-- 行上单元格 -->
+		<td>性别</td><!-- 行上单元格 -->
+		<td align="center">男</td>
+		<td rowspan="4"><img src="../img/002.jpg" width="100"></td>
+	</tr>
+	
+	
+<!-- 	第二行内容 -->
+	<tr valign="middle">
+		<td>职务</td>
+		<td>学生</td>
+		<td rowspan="2">联系方式 </td>
+		<!-- 合并行的标记"rowspan=value",value为2是表示合并两行 -->
+		<td>85690469</td>
+	</tr>	
+	
+	
+	<!-- 第三行内容 -->
+	<tr>
+		<td>专业</td>
+		<td>软件工程</td>
+		<!-- 由于前一行合并占了，所以可以删除被占用的 -->
+		<td>18096305532</td>
+	</tr>	
+	
+	
+<!-- 	第四行内容 -->
+	<tr>
+		<td>地址：</td>
+		<td rowspan="3">攀枝花学院</td>
+		<!-- 这里也是，上面合并三行，所以删除三列 -->
+		
+	</tr>
+</table>
+	</body>
+</html>
